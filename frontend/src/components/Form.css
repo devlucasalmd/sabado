@@ -1,0 +1,12 @@
+.form{
+  display:flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+.form button{
+  background-color:aquamarine;
+}

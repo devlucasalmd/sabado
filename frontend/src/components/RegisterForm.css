@@ -1,0 +1,16 @@
+input[type="file"]{
+  display:none;
+}
+#imageLabel{
+  display:flex;
+  margin-top:10px;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  height: 300px;
+  border: 2px solid white;
+  background-size: 100% 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  object-fit: none;
+}
