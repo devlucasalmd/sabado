@@ -26,6 +26,7 @@ module.exports = class UserController {
     if(userExist){
       return res.status(422).json({message: "Já tem um usuario com este email"})
     }
+    
     const hash = await bcrypt.genSalt(12) 
     const passwordHash = await bcrypt.hash(password,hash)
     if(uso === "Vendedor"){
